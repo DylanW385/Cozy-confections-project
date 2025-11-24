@@ -29,6 +29,7 @@ Website Layout / To Do
     - social media icons
         - add links
     - Home | Shop | About us
+    -background color
 
 // Home page
     - carousel
