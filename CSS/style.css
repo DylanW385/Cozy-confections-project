@@ -5,9 +5,28 @@
     }
     margin-right: 10px;
 }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #D58A1C
+}
 body {
     background-color: hsl(292, 86%, 92%);
 }
 .nav-item:hover {
     transform: scale(1.1);
+}
+h2 {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Cursive', sans-serif;
+}
+.carousel-item img {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    margin: 0 auto;
+
 }
