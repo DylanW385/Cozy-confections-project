@@ -12,7 +12,7 @@
   color: #D58A1C
 }
 body {
-    background-color: hsl(292, 86%, 92%);
+    background-color: #fdc4e5;
 }
 .nav-item:hover {
     transform: scale(1.1);
@@ -22,11 +22,30 @@ h2 {
     text-align: center;
     margin-top: 20px;
     font-family: 'Cursive', sans-serif;
+    font-size: 40px;;
 }
 .carousel-item img {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-content: center;
     margin: 0 auto;
-
+    size: 3844px 2275px;
+}
+.product-description {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    color: black;
+    margin: 20px 20%;
+    text-align: center;
+}
+.btn-success {
+    margin-left: 15%;
+    margin-bottom: 30px;
+    background-color: #D58A1C;
+    border: none;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
 }
