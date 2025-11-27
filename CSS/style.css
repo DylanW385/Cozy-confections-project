@@ -28,13 +28,13 @@ h2 {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     justify-content: center;
-    margin: 0 auto;
+    margin: 10px auto;
     size: 3844px 2275px;
 }
 .product-description {
     font-family: "Bebas Neue", sans-serif;
     font-size: 28px;
-    color: black;
+    color:#8f3168;
     margin: 20px 20%;
     text-align: center;
 }
@@ -48,4 +48,32 @@ h2 {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+.btn-success:hover {
+    background-color: #bf7a17;
+}
+.card{
+    border: none;
+    background-color:#fdc4e5;
+    display: block;
+    width: 100%;
+}
+.card-body{
+    background-color:#fdc4e5;
+    color: rgb(83, 81, 81);
+    border: none;
+}
+.card-text{
+    text-align: center;
+}
+.card-img-top{
+    border-radius: 12px;
+}
+.card-img-top:hover{
+    transform: scale(1.02);
+}
+@media (min-width: 992px) {
+    #shop-section{
+    margin-right: 60%;
+}
 }
