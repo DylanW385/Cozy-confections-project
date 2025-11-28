@@ -38,7 +38,7 @@ h2 {
     margin: 20px 20%;
     text-align: center;
 }
-.btn-success {
+.btn-secondary {
     margin-left: 15%;
     margin-bottom: 30px;
     background-color: #D58A1C;
@@ -49,7 +49,7 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
 }
-.btn-success:hover {
+.btn-secondary:hover {
     background-color: #bf7a17;
 }
 .card{
@@ -71,9 +71,4 @@ h2 {
 }
 .card-img-top:hover{
     transform: scale(1.02);
-}
-@media (min-width: 992px) {
-    #shop-section{
-    margin-right: 60%;
-}
 }
